@@ -4,8 +4,9 @@
 #include <SDL2/SDL_ttf.h>
 #include "ltexture.h"
 #include "camera.h"
+#include "gameobject.h"
 
-class Player
+class Player: public GameObject
 {
     public:
         Player();

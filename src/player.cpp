@@ -24,7 +24,7 @@ Player::Player()
 
 void Player::LoadTexture(SDL_Renderer* renderer)
 {
-    mTexture.loadFromFile("C:/Users/jason/Desktop/Game/assets/BlackSquare.png", renderer);
+    mTexture.loadFromFile("assets/BlackSquare.png", renderer);
 }
 
 Player::~Player()
